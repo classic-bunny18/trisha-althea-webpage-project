@@ -123,7 +123,8 @@ section h2 {
 
 .media-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 10px #a855f7, 0 0 25px #a855f7, 00 40px #a855f7;
+    
 }
 
 /* Footer */
