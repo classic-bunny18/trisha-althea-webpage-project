@@ -16,14 +16,13 @@ header {
 header h1 {
     margin: 0;
     font-size: 40px;
-    animation: slide-up 3s ;
+    animation: slideUp 3s infinite alternate ;
 }
-    @keyframes slide-up {
+    @keyframes slideUp {
         0%, { transform:
         translateY(20px); opacity:0; }
         100% {transform:
-        translateY(0); opacity: 1;
-        }
+        translateY(0); opacity: 1; }
     }
 
 header p {
