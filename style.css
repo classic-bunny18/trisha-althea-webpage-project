@@ -102,7 +102,6 @@ section h2 {
 }
 
 .media-card img {
-    animation: flash 1.6s infinite;
     width: 100%;
     height: 220px;
     object-fit: cover;
@@ -137,6 +136,7 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+    animation: flash 1.6s infinite;
 }
 
 /* About section images */
