@@ -16,7 +16,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 40px;
-    animation: slideUp 3s ease-out;
+    animation: slideUp 2s ease-out;
 }
     @keyframes slideUp {
         from { transform:
@@ -32,17 +32,7 @@ header p {
     margin-top: 10px;
     font-size: 18px;
     color: #a5b4fc;
-    animation: slideUp 3s ease-out;
-}
-    @keyframes slideUp {
-        from { transform:
-        translateY(50px); 
-              opacity:0; }
-    }
-        to { transform:
-       translateY(0);
-              opacity: 1; }
-    
+                   
 }
 
 /* Navigation */
