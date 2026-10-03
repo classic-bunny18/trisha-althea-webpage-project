@@ -16,7 +16,16 @@ header {
 header h1 {
     margin: 0;
     font-size: 40px;
+    animation: flash 3s ease-in-out infinite;
 }
+    @keyframes flash {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.3;
+        }
+    }
 
 header p {
     margin-top: 10px;
@@ -154,18 +163,3 @@ footer a:hover {
     margin: 20px auto;
     border-radius: 10px;
 }
-
-/*Ttile Animation*/
-.main-title {
-    color: white;
-    animation: flash 1.6s ease-and-out infinite ;
-    }
-@keyframes flash {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.3:
-    }
-}
-    
