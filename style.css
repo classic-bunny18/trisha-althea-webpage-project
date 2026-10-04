@@ -16,13 +16,6 @@ header {
 header h1 {
     margin: 0;
     font-size: 40px;
-    animation: fadeIn 2s ease-in; }
-@keyframes FadeIn {
-    from { opacity: 0; 
-         }
-    to { 
-        opacity:1 ; 
-    }
 }
          
 header p {
@@ -114,7 +107,6 @@ section h2 {
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 15px;
-    transition: transform 0.4s ease;
 }
 
 .media-card h3 {
@@ -126,10 +118,6 @@ section h2 {
     transform: translateY(-5px);
     box-shadow: 0 0 10px #B99CCB, 0 0 25px #B99CCB, 00 40px #B99CCB;
 
-/* IMAGE ZOOM ON HOVER */
-.media-card: hover img{
-    transform: scale(1.08);
-}
 
 /* Footer */
 footer {
