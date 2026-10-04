@@ -143,12 +143,14 @@ footer a:hover {
     display: block;
     max-width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 20px auto;
+    border-radius: 10px;
 }
 
 #partner-about img {
     display: block;
     max-width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 20px auto;
+    border-radius: 10px;
 }
