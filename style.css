@@ -23,6 +23,13 @@ header p {
     font-size: 18px;
     color: #a5b4fc;
 }
+
+/* Favorite button */
+.favorite-btn {
+    font-size: 30px;
+    background: none;
+    cursor: pointer;
+}
         
 /* Navigation */
 nav {
