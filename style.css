@@ -141,7 +141,8 @@ footer a:hover {
 /* About section images */
 #about img {
     display: block;
-    max-width: 100%;
+    width: 80%;
+    max-width: 900px;
     height: auto;
     margin: 20px auto;
     border-radius: 10px;
@@ -149,7 +150,8 @@ footer a:hover {
 
 #partner-about img {
     display: block;
-    max-width: 100%;
+    width: 80%;
+    max-width: 900px;
     height: auto;
     margin: 20px auto;
     border-radius: 10px;
