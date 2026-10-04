@@ -125,8 +125,10 @@ section h2 {
 .media-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 10px #B99CCB, 0 0 25px #B99CCB, 00 40px #B99CCB;
-    transform: scale(0.08);
-    
+
+/* IMAGE ZOOM ON HOVER */
+.media-card: hover img{
+    transform: scale(1.08);
 }
 
 /* Footer */
